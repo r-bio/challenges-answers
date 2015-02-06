@@ -13,6 +13,9 @@
 ### - how many birds habe been captured? (610)
 ### -how many speciemens of the genus Dipodomys have been captured?(16,527)
 
+surveys <- read.csv(file="data/surveys.csv")
+species <- read.csv(file="data/species.csv")
+
 surveys_spid_index <- match(surveys$species_id, species$species_id)
 head(surveys_spid_index)
 
