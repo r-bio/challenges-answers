@@ -3,6 +3,7 @@
 ###### challenge assignment
 
 surveys <- read.csv(file="data/surveys.csv")
+species  <- read.csv(file="data/species.csv")
 
 ### part 1: use cbind to add species names to 'surveys' data.frame
 
